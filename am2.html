@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostArmada Introduction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            width: 100%;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #388E3C;
+        }
+
+        .features {
+            margin: 2rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .feature {
+            flex: 1 1 calc(33.333% - 1rem);
+            background: #f9f9f9;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .feature p {
+            font-size: 1rem;
+        }
+
+        .about {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #eef6f3;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .about h2 {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            color: #4CAF50;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+        }
+
+        .logo {
+            display: block;
+            margin: 2rem auto;
+            max-width: 200px;
+            height: auto;
+        }
+
+        .affiliate-link {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+        }
+
+        .affiliate-link a {
+            color: white;
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+
+        .affiliate-link a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .features {
+                flex-direction: column;
+            }
+
+            .feature {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to HostArmada</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <img src="/mnt/data/DALL·E 2024-12-16 07.55.10 - A professional website logo featuring a seagull in flight with its wings gracefully spread, set against a clear sky-blue background. The design includ.jpg" alt="Long.PM Logo" class="logo">
+        <div class="hero">
+            <h1>Why Choose HostArmada?</h1>
+            <p>Discover reliable and affordable web hosting solutions tailored to your needs.</p>
+            <a href="https://www.hostarmada.com/" class="btn">Visit HostArmada</a>
+        </div>
+        <section class="about">
+            <h2>About HostArmada</h2>
+            <p>HostArmada is a premium web hosting company dedicated to providing fast, secure, and reliable hosting services. With cutting-edge technology and exceptional customer support, HostArmada helps businesses and individuals establish a robust online presence. Whether you need shared hosting, VPS, or dedicated servers, HostArmada has you covered with scalable solutions that grow with your needs.</p>
+        </section>
+        <section class="features">
+            <div class="feature">
+                <h3>Lightning-Fast Speed</h3>
+                <p>HostArmada ensures your website loads quickly with cutting-edge technology.</p>
+            </div>
+            <div class="feature">
+                <h3>Enhanced Security</h3>
+                <p>Protect your data with advanced security protocols and regular updates.</p>
+            </div>
+            <div class="feature">
+                <h3>Reliable Support</h3>
+                <p>Get 24/7 customer support from a team of experienced professionals.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 HostArmada Introduction. All Rights Reserved.</p>
+        <div class="affiliate-link">
+            <a href="https://affiliates.hostarmada.com/scripts/q1yoac4x8oq?a_aid=Mylinkpro&a_bid=c34cd9f7">Affiliate Link</a>
+        </div>
+    </footer>
+</body>
+</html>
